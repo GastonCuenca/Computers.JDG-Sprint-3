@@ -1,0 +1,57 @@
+.logo{
+  border-radius: 20px;
+}
+body{
+  background-image: url('/images/fondo.jpg');
+}
+header{
+  height: 5%;
+}
+.btnSalir{
+  display: none;
+}
+.btnCarrito{
+  display: none;
+}
+.perfil{
+  width: 40%;
+}
+.gamers{
+  margin-left: 180px;
+}
+.circulo{
+  background-color: white;
+  padding: 25px;
+  border-radius: 400px;
+  width: 250px;
+}
+i{
+  font-size: 8rem;
+}
+.redes{
+  font-size: 4em;
+  margin: 10px;
+}
+ul{
+  list-style: none;
+}
+footer{
+  background-color: black;
+  height: 4%;
+
+}
+@media (max-width:768px) {
+  .logo{
+    margin-left: 20px;
+  }
+  .carrousel{
+    display: none;
+  }
+  .gamers{
+    margin-left: 0px;
+  }
+  .redes{
+    font-size: 3em;
+    margin: 3px;
+  }
+}
